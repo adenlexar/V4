@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Profil"
+        android:icon="@drawable/ic_home"
+        android:id="@+id/navigation_home" />
+
+    <item android:title="Infos"
+        android:icon="@drawable/ic_info"
+        android:id="@+id/navigation_info" />
+
+    <item android:title="Nutrition"
+        android:icon="@drawable/ic_nutri"
+        android:id="@+id/navigation_nutri" />
+
+    <item android:title="Compléments"
+        android:icon="@drawable/ic_comp"
+        android:id="@+id/navigation_comp" />
+
+</menu>

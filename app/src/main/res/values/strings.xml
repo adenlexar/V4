@@ -1,0 +1,60 @@
+<resources>
+    <!--Barre du haut-->
+    <string name="app_name">V4</string>
+    <string name="title_home">Mon Profil</string>
+    <string name="title_info">Mes Infos</string>
+    <string name="title_nutri">Ma Nutrition</string>
+    <string name="title_comp">Les Compléments</string>
+
+    <!--Page d'accueil-->
+    <string name="home_welcome">Bienvenue </string>
+
+    <string name="home_imc_output">IMC : </string>
+    <string name="home_mb_output">Métabolisme basal : </string>
+    <string name="home_mm_output">Métabolisme de maintient : </string>
+    <string name="home_mo_output">Objectif : </string>
+
+    <!--Les Macros-->
+    <string name="home_macro_eat">Vous avez consommé : </string>
+    <string name="home_macro_kcal">kcal</string>
+    <string name="home_macro_g">glucides</string>
+    <string name="home_macro_p">protéines</string>
+    <string name="home_macro_l">lipides</string>
+
+    <!--Paramétrage des infos-->
+    <string name="info_name_input">Nom</string>
+    <string name="info_sexe_male">Homme</string>
+    <string name="info_sexe_female">Femme</string>
+
+
+    <string name="info_age_input">Âge</string>
+
+    <string name="info_height_input">Taille (cm)</string>
+    <string name="info_weight_input">Poids (kg)</string>
+
+    <string-array name="info_activ_input">
+        <item>Activité : Sédentaire</item>
+        <item>Activité : Légèrement actif</item>
+        <item>Activité : Actif</item>
+        <item>Activité : Très actif</item>
+        <item>Activité : Extrêmement actif</item>
+    </string-array>
+
+    <string-array name="info_goal_input">
+        <item>Objectif : Maintient</item>
+        <item>Objectif : Perte de masse grasse</item>
+        <item>Objectif : Prise de masse musculaire</item>
+    </string-array>
+
+    <string name="info_save_button">Enregistrer les infos</string>
+
+
+    <!--Calculateur Nutritionnel-->
+    <string name="nutri_add_button">Ajouter</string>
+    <string name="nutri_kcal">kcal</string>
+
+    <!--Les Compléments-->
+
+    <!--Pop-up Compléments-->
+
+</resources>
