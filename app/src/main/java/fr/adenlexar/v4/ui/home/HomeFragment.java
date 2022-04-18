@@ -1,27 +1,17 @@
 package fr.adenlexar.v4.ui.home;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
-import android.widget.RadioButton;
-import android.widget.Spinner;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProviders;
 
 import fr.adenlexar.v4.MainActivity;
 import fr.adenlexar.v4.R;
 import fr.adenlexar.v4.controleur.Controle;
-import fr.adenlexar.v4.modele.Profil;
-import fr.adenlexar.v4.ui.infos.InfoFragment;
-import fr.adenlexar.v4.ui.nutrition.NutriViewModel;
 
 public class HomeFragment extends Fragment {
 
@@ -39,13 +29,12 @@ public class HomeFragment extends Fragment {
     private TextView txtMetaMai;
     private TextView txtMetaObj;
 
-    private HomeViewModel homeViewModel;
+
     private MainActivity mainActivity;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel =
-                ViewModelProviders.of(this).get(HomeViewModel.class);
+
 
         mainActivity = (MainActivity) getActivity();
 
@@ -63,12 +52,8 @@ public class HomeFragment extends Fragment {
         this.txtMetaMai = (TextView) root.findViewById(R.id.idMetaMaiOutput);
         this.txtMetaObj = (TextView) root.findViewById(R.id.idMetaObjOutput);
 
-        homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                //les changements à faire sur les view
-            }
-        });
+
+        ;
         afficheInfos();
         return root;
     }

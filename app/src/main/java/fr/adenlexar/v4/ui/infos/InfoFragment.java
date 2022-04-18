@@ -22,7 +22,7 @@ import fr.adenlexar.v4.R;
 import fr.adenlexar.v4.controleur.Controle;
 import fr.adenlexar.v4.modele.Profil;
 import fr.adenlexar.v4.ui.home.HomeFragment;
-import fr.adenlexar.v4.ui.home.HomeViewModel;
+
 
 public class InfoFragment extends Fragment {
 
@@ -34,14 +34,12 @@ public class InfoFragment extends Fragment {
     private EditText txtPoids;
     private Spinner spiAct;
     private Spinner spiObj;
-    private InfoViewModel infoViewModel;
     private MainActivity mainActivity;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
-        infoViewModel =
-                ViewModelProviders.of(this).get(InfoViewModel.class); //la classe infoView
+
         View root = inflater.inflate(R.layout.fragment_info, container, false);
 
         mainActivity = (MainActivity) getActivity();

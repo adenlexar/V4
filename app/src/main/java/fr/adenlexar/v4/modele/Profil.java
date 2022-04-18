@@ -19,8 +19,10 @@ public class Profil {
     private int metabolisme_basal;
     private int metabolisme_maintient; //nombre de calories à ingérer pour maintenir son poids
     private int metabolisme_objectif; //nombre de calories à ingérer pour remplir l'objectif
-    private int proteines;
-    private int lipides;
+    private Nutrition maxConso; //nombre maximum de cal/prot/lip/glu
+    private Nutrition actualConso; //consommation actuelle de cal/prot/lip/glu
+
+
 
     public Profil(String nom, boolean sexe, int age, int taille, int poids, int activite, int objectif) {
         this.nom = nom;
@@ -77,8 +79,8 @@ public class Profil {
     }
 
     private void calculMacros(){
-        this.proteines = (int) ((int) this.poids * 1.6);
-        this.lipides = this.poids;
+        this.maxConso.setProteines((int) ((int) this.poids * 1.6));
+        this.maxConso.setLipides(this.poids);
     }
 
     public String getNom() {
@@ -125,11 +127,5 @@ public class Profil {
         return metabolisme_objectif;
     }
 
-    public int getProteines() {
-        return proteines;
-    }
 
-    public int getLipides() {
-        return lipides;
-    }
 }
