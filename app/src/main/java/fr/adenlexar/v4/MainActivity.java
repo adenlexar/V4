@@ -11,10 +11,11 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import fr.adenlexar.v4.controleur.Controle;
+import fr.adenlexar.v4.modele.Profil;
 
 public class MainActivity extends AppCompatActivity {
 
-    public Controle c;
+    private Controle c;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
 
         this.c = Controle.getInstance();
     }
-//TODO fragment = singletons et aussi gerer les données qui transitent entr eles fragments + mettre prot et lip au controlleur
 
     public Controle getC() {
         return c;
