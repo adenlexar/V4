@@ -3,6 +3,7 @@ package fr.adenlexar.v4.controleur;
 import java.text.DecimalFormat;
 
 import fr.adenlexar.v4.R;
+import fr.adenlexar.v4.modele.Nutrition;
 import fr.adenlexar.v4.modele.Profil;
 
 public final class Controle {
@@ -109,5 +110,9 @@ public final class Controle {
      */
     public String getMetabolisme_objectif() {
         return "Ton objectif : " + String.valueOf(this.profil.getMetabolisme_objectif())  + " kcal";
+    }
+
+    public void setActualConso(Nutrition n){
+        this.profil.setActualConso(n);
     }
 }

@@ -79,6 +79,7 @@ public class Profil {
     }
 
     private void calculMacros(){
+        this.maxConso.setCalories(this.metabolisme_objectif);
         this.maxConso.setProteines((int) ((int) this.poids * 1.6));
         this.maxConso.setLipides(this.poids);
     }
@@ -127,5 +128,11 @@ public class Profil {
         return metabolisme_objectif;
     }
 
+    public Nutrition getActualConso() {
+        return actualConso;
+    }
 
+    public void setActualConso(Nutrition actualConso) {
+        this.actualConso = actualConso;
+    }
 }
