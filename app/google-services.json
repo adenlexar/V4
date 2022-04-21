@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "313096206501",
+    "project_id": "tipe-collection",
+    "storage_bucket": "tipe-collection.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313096206501:android:89a14484ab74668051354c",
+        "android_client_info": {
+          "package_name": "fr.adenlexar.v4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313096206501-tf1shd68d5tlfoaeiendaqbs5fjftn8g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKafP0ezya40E_qKLiMg-OKhohVTEQz5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313096206501-tf1shd68d5tlfoaeiendaqbs5fjftn8g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

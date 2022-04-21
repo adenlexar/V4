@@ -5,7 +5,8 @@
       <map>
         <entry key="..\:/Users/User/AndroidStudioProjects/V4/app/src/main/res/layout/fragment_home.xml" value="0.358695652173913" />
         <entry key="..\:/Users/User/AndroidStudioProjects/V4/app/src/main/res/layout/fragment_info.xml" value="0.358695652173913" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/V4/app/src/main/res/layout/fragment_nutri.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/V4/app/src/main/res/layout/fragment_nutri.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/V4/app/src/main/res/layout/item_vertical_aliment.xml" value="0.75" />
       </map>
     </option>
   </component>

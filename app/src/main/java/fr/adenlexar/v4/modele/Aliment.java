@@ -7,9 +7,9 @@ public class Aliment {
     private int poids;
     private Nutrition nutriPourCentG;
     private Nutrition nutriActuelle;
-    private Image img;
+    private String imgUrl;
 
-    public Aliment(String n, int poids, Nutrition nutriPourCentG, Image img) {
+    public Aliment(String n, int poids, Nutrition nutriPourCentG, String imgUrl) {
         this.nom = n;
         this.poids = poids;
         this.nutriPourCentG = nutriPourCentG;
@@ -17,7 +17,7 @@ public class Aliment {
                 nutriPourCentG.getProteines()*poids/100,
                 nutriPourCentG.getLipides()*poids/100,
                 nutriPourCentG.getGlucides()*poids/100);
-        this.img = img;
+        this.imgUrl = imgUrl;
     }
 
 

@@ -1,68 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.nutrition.NutriFragment">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".ui.nutrition.NutriFragment"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="172dp"
+        android:layout_height="159dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        tools:src="@tools:sample/avatars" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Nom"
+            android:layout_width="224dp"
+            android:layout_height="48dp"
+            android:text="Aliment"
+            android:layout_marginTop="-12dp"
+            android:layout_marginLeft="15dp"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/Poids"
+            android:layout_width="128dp"
+            android:layout_height="48dp"
+            android:textSize="18dp"
+            android:hint='Poids (en g)'
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:inputType="number" />
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/Manger"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="161dp"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="162dp"
-        android:layout_marginBottom="340dp"
-        android:onClick="Mangé"
-        android:text="Manger"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="172dp"
-        android:layout_height="159dp"
-        android:layout_marginStart="119dp"
-        android:layout_marginEnd="120dp"
-        android:layout_marginBottom="64dp"
-        app:layout_constraintBottom_toTopOf="@+id/Poids"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:src="@tools:sample/avatars" />
-
-    <EditText
-        android:id="@+id/Poids"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
-        android:ems="10"
-        android:hint='Poids (en g)'
-        android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/Manger"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <TextView
-        android:id="@+id/Nom"
-        android:layout_width="224dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="16dp"
-        android:lineSpacingExtra="0sp"
-        android:text="Aliment"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/Manger"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_marginBottom="8dp"
+        android:text="Manger" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="409dp"
-        android:layout_height="339dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:id="@+id/VerticalRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

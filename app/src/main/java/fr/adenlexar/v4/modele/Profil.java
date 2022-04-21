@@ -32,6 +32,8 @@ public class Profil {
         this.poids = poids;
         this.activite = activite;
         this.objectif = objectif;
+        this.maxConso = new Nutrition(0,0,0,0);
+        this.actualConso = new Nutrition(0,0,0,0);
         calculIMC();
         calculMeta();
         calculMetaM();
@@ -79,7 +81,7 @@ public class Profil {
     }
 
     private void calculMacros(){
-        this.maxConso.setCalories(this.metabolisme_objectif);
+        this.maxConso.setCalories(getMetabolisme_objectif());
         this.maxConso.setProteines((int) ((int) this.poids * 1.6));
         this.maxConso.setLipides(this.poids);
     }
