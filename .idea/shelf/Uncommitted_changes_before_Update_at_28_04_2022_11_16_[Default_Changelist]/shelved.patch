@@ -1,0 +1,644 @@
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_18_04_2022_15_02_[Default_Changelist]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_18_04_2022_15_02_[Default_Changelist]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_18_04_2022_15_02_[Default_Changelist]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_18_04_2022_15_02_[Default_Changelist]/shelved.patch	(revision 977971fce3e14aaeffaef6f2aeb034a2bc4b8dfe)
++++ /dev/null	(revision 977971fce3e14aaeffaef6f2aeb034a2bc4b8dfe)
+@@ -1,108 +0,0 @@
+-Index: .idea/runConfigurations.xml
+-===================================================================
+-diff --git a/.idea/runConfigurations.xml b/.idea/runConfigurations.xml
+-deleted file mode 100644
+---- a/.idea/runConfigurations.xml	(revision 278d9ba0e8e68b6d6128d90c63aecac731c19a98)
+-+++ /dev/null	(revision 278d9ba0e8e68b6d6128d90c63aecac731c19a98)
+-@@ -1,12 +0,0 @@
+--<?xml version="1.0" encoding="UTF-8"?>
+--<project version="4">
+--  <component name="RunConfigurationProducerService">
+--    <option name="ignoredProducers">
+--      <set>
+--        <option value="org.jetbrains.plugins.gradle.execution.test.runner.AllInPackageGradleConfigurationProducer" />
+--        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestClassGradleConfigurationProducer" />
+--        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestMethodGradleConfigurationProducer" />
+--      </set>
+--    </option>
+--  </component>
+--</project>
+-\ No newline at end of file
+-Index: .idea/codestream.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/codestream.xml b/.idea/codestream.xml
+-new file mode 100644
+---- /dev/null	(date 1650285673803)
+-+++ b/.idea/codestream.xml	(date 1650285673803)
+-@@ -0,0 +1,6 @@
+-+<?xml version="1.0" encoding="UTF-8"?>
+-+<project version="4">
+-+  <component name="CodeStream">
+-+    <option name="webViewContext" value="{&quot;chatProviderAccess&quot;:&quot;strict&quot;,&quot;currentTeamId&quot;:&quot;&quot;,&quot;currentStreamId&quot;:&quot;&quot;,&quot;pullRequestCheckoutBranch&quot;:false,&quot;isRepositioning&quot;:false,&quot;onboardStep&quot;:0,&quot;panelStack&quot;:[&quot;landing-redirect&quot;],&quot;hasFocus&quot;:false,&quot;channelFilter&quot;:&quot;all&quot;,&quot;channelsMuteAll&quot;:false,&quot;codemarkFileFilter&quot;:&quot;all&quot;,&quot;codemarkTypeFilter&quot;:&quot;all&quot;,&quot;codemarkTagFilter&quot;:&quot;all&quot;,&quot;codemarkBranchFilter&quot;:&quot;all&quot;,&quot;codemarkAuthorFilter&quot;:&quot;all&quot;,&quot;codemarksFileViewStyle&quot;:&quot;inline&quot;,&quot;codemarksShowArchived&quot;:false,&quot;codemarksShowResolved&quot;:false,&quot;codemarksWrapComments&quot;:false,&quot;showFeedbackSmiley&quot;:true,&quot;route&quot;:{&quot;name&quot;:&quot;newUserEntry&quot;,&quot;params&quot;:{}},&quot;spatialViewShowPRComments&quot;:false,&quot;__teamless__&quot;:{&quot;selectedRegion&quot;:&quot;us&quot;},&quot;sessionStart&quot;:1650285583877}" />
+-+  </component>
+-+</project>
+-\ No newline at end of file
+-Index: .idea/vcs.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+-new file mode 100644
+---- /dev/null	(date 1650277403564)
+-+++ b/.idea/vcs.xml	(date 1650277403564)
+-@@ -0,0 +1,6 @@
+-+<?xml version="1.0" encoding="UTF-8"?>
+-+<project version="4">
+-+  <component name="VcsDirectoryMappings">
+-+    <mapping directory="" vcs="Git" />
+-+  </component>
+-+</project>
+-\ No newline at end of file
+-Index: .idea/compiler.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+-new file mode 100644
+---- /dev/null	(date 1650277460785)
+-+++ b/.idea/compiler.xml	(date 1650277460785)
+-@@ -0,0 +1,6 @@
+-+<?xml version="1.0" encoding="UTF-8"?>
+-+<project version="4">
+-+  <component name="CompilerConfiguration">
+-+    <bytecodeTargetLevel target="1.8" />
+-+  </component>
+-+</project>
+-\ No newline at end of file
+-Index: .idea/misc.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_1_7\" project-jdk-name=\"1.8\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/build/classes\" />\r\n  </component>\r\n  <component name=\"ProjectType\">\r\n    <option name=\"id\" value=\"Android\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/misc.xml b/.idea/misc.xml
+---- a/.idea/misc.xml	(revision 278d9ba0e8e68b6d6128d90c63aecac731c19a98)
+-+++ b/.idea/misc.xml	(date 1650277460774)
+-@@ -1,6 +1,6 @@
+- <?xml version="1.0" encoding="UTF-8"?>
+- <project version="4">
+--  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+-+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+-     <output url="file://$PROJECT_DIR$/build/classes" />
+-   </component>
+-   <component name="ProjectType">
+-Index: .idea/gradle.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"GradleMigrationSettings\" migrationVersion=\"1\" />\r\n  <component name=\"GradleSettings\">\r\n    <option name=\"linkedExternalProjectsSettings\">\r\n      <GradleProjectSettings>\r\n        <option name=\"testRunner\" value=\"PLATFORM\" />\r\n        <option name=\"distributionType\" value=\"DEFAULT_WRAPPED\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"gradleJvm\" value=\"1.8\" />\r\n        <option name=\"modules\">\r\n          <set>\r\n            <option value=\"$PROJECT_DIR$\" />\r\n            <option value=\"$PROJECT_DIR$/app\" />\r\n          </set>\r\n        </option>\r\n        <option name=\"resolveModulePerSourceSet\" value=\"false\" />\r\n      </GradleProjectSettings>\r\n    </option>\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+---- a/.idea/gradle.xml	(revision 278d9ba0e8e68b6d6128d90c63aecac731c19a98)
+-+++ b/.idea/gradle.xml	(date 1650277403507)
+-@@ -4,7 +4,7 @@
+-   <component name="GradleSettings">
+-     <option name="linkedExternalProjectsSettings">
+-       <GradleProjectSettings>
+--        <option name="testRunner" value="PLATFORM" />
+-+        <option name="testRunner" value="GRADLE" />
+-         <option name="distributionType" value="DEFAULT_WRAPPED" />
+-         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+-         <option name="gradleJvm" value="1.8" />
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_18_04_2022_15_02__Default_Changelist_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_18_04_2022_15_02__Default_Changelist_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_18_04_2022_15_02__Default_Changelist_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_18_04_2022_15_02__Default_Changelist_.xml	(revision 977971fce3e14aaeffaef6f2aeb034a2bc4b8dfe)
++++ /dev/null	(revision 977971fce3e14aaeffaef6f2aeb034a2bc4b8dfe)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_18_04_2022_15_02_[Default_Changelist]" date="1650286980693" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_04_2022_15_02_[Default_Changelist]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 18/04/2022 15:02 [Default Changelist]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/deploymentTargetDropDown.xml
+===================================================================
+diff --git a/.idea/deploymentTargetDropDown.xml b/.idea/deploymentTargetDropDown.xml
+deleted file mode 100644
+--- a/.idea/deploymentTargetDropDown.xml	(revision 977971fce3e14aaeffaef6f2aeb034a2bc4b8dfe)
++++ /dev/null	(revision 977971fce3e14aaeffaef6f2aeb034a2bc4b8dfe)
+@@ -1,17 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="deploymentTargetDropDown">
+-    <runningDeviceTargetSelectedWithDropDown>
+-      <Target>
+-        <type value="RUNNING_DEVICE_TARGET" />
+-        <deviceKey>
+-          <Key>
+-            <type value="VIRTUAL_DEVICE_PATH" />
+-            <value value="C:\Users\User\.android\avd\Pixel_2_API_30.avd" />
+-          </Key>
+-        </deviceKey>
+-      </Target>
+-    </runningDeviceTargetSelectedWithDropDown>
+-    <timeTargetWasSelectedWithDropDown value="2022-04-21T16:16:35.257200700Z" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: app/src/main/java/fr/adenlexar/v4/AlimentRepository.java
+===================================================================
+diff --git a/app/src/main/java/fr/adenlexar/v4/AlimentRepository.java b/app/src/main/java/fr/adenlexar/v4/AlimentRepository.java
+deleted file mode 100644
+--- a/app/src/main/java/fr/adenlexar/v4/AlimentRepository.java	(revision 977971fce3e14aaeffaef6f2aeb034a2bc4b8dfe)
++++ /dev/null	(revision 977971fce3e14aaeffaef6f2aeb034a2bc4b8dfe)
+@@ -1,49 +0,0 @@
+-package fr.adenlexar.v4;
+-
+-
+-import com.google.firebase.database.DataSnapshot;
+-import com.google.firebase.database.DatabaseError;
+-import com.google.firebase.database.DatabaseReference;
+-import com.google.firebase.database.FirebaseDatabase;
+-import com.google.firebase.database.ValueEventListener;
+-
+-import java.util.ArrayList;
+-
+-import javax.security.auth.callback.Callback;
+-
+-import fr.adenlexar.v4.modele.Aliment;
+-
+-public class AlimentRepository {
+-    //se connecter à la référence "Aliments"
+-    public final FirebaseDatabase database = FirebaseDatabase.getInstance("https://tipe-collection-default-rtdb.firebaseio.com/");
+-
+-    public final DatabaseReference myRef = database.getReference("Aliments");
+-
+-    //créer une liste qui va contenir les aliments
+-    public ArrayList<Aliment> bdd;
+-
+-    public void updateData () {
+-        myRef.addValueEventListener(new ValueEventListener(){
+-            @Override
+-            public void onDataChange(DataSnapshot dataSnapshot) {
+-                //retirer les anciens aliments
+-                bdd.clear();
+-
+-                for (DataSnapshot i : dataSnapshot.getChildren()){
+-                    Aliment aliment = (Aliment) i.getValue(Aliment.class);
+-
+-                    //vérifier que l'aliment n'est pas null
+-                    if (aliment != null){
+-                        bdd.add(aliment);
+-                    }
+-                }
+-            }
+-
+-            @Override
+-            public void onCancelled(DatabaseError error) {
+-
+-            }
+-        });
+-    }
+-
+-}
+Index: app/src/main/res/layout/fragment_nutri.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n\r\n<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n        xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n        xmlns:tools=\"http://schemas.android.com/tools\"\r\n        tools:context=\".ui.nutrition.NutriFragment\"\r\n        android:orientation=\"vertical\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"match_parent\">\r\n\r\n    <ImageView\r\n        android:id=\"@+id/imageView\"\r\n        android:layout_width=\"172dp\"\r\n        android:layout_height=\"159dp\"\r\n        android:layout_marginTop=\"20dp\"\r\n        android:layout_marginBottom=\"20dp\"\r\n        tools:src=\"@tools:sample/avatars\" />\r\n\r\n\r\n    <LinearLayout\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\">\r\n\r\n        <TextView\r\n            android:id=\"@+id/Nom\"\r\n            android:layout_width=\"224dp\"\r\n            android:layout_height=\"48dp\"\r\n            android:text=\"Aliment\"\r\n            android:layout_marginTop=\"-12dp\"\r\n            android:layout_marginLeft=\"15dp\"\r\n            android:textAlignment=\"center\"\r\n            android:textSize=\"18dp\" />\r\n\r\n        <EditText\r\n            android:id=\"@+id/Poids\"\r\n            android:layout_width=\"128dp\"\r\n            android:layout_height=\"48dp\"\r\n            android:textSize=\"18dp\"\r\n            android:hint='Poids (en g)'\r\n            android:layout_marginLeft=\"30dp\"\r\n            android:layout_marginRight=\"15dp\"\r\n            android:inputType=\"number\" />\r\n\r\n    </LinearLayout>\r\n\r\n    <Button\r\n        android:id=\"@+id/Manger\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginStart=\"161dp\"\r\n        android:layout_marginTop=\"8dp\"\r\n        android:layout_marginEnd=\"162dp\"\r\n        android:layout_marginBottom=\"8dp\"\r\n        android:text=\"Manger\" />\r\n\r\n    <androidx.recyclerview.widget.RecyclerView\r\n        android:id=\"@+id/VerticalRecyclerView\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"match_parent\"\r\n        android:orientation=\"vertical\"\r\n        app:layoutManager=\"androidx.recyclerview.widget.LinearLayoutManager\" />\r\n\r\n</LinearLayout>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/fragment_nutri.xml b/app/src/main/res/layout/fragment_nutri.xml
+--- a/app/src/main/res/layout/fragment_nutri.xml	(revision 977971fce3e14aaeffaef6f2aeb034a2bc4b8dfe)
++++ b/app/src/main/res/layout/fragment_nutri.xml	(date 1650808726196)
+@@ -8,15 +8,16 @@
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+ 
++
+     <ImageView
+         android:id="@+id/imageView"
+         android:layout_width="172dp"
+         android:layout_height="159dp"
+         android:layout_marginTop="20dp"
++        android:layout_marginLeft="120dp"
+         android:layout_marginBottom="20dp"
+         tools:src="@tools:sample/avatars" />
+ 
+-
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+Index: app/src/main/java/fr/adenlexar/v4/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package fr.adenlexar.v4;\r\n\r\nimport android.os.Bundle;\r\n\r\nimport com.google.android.material.bottomnavigation.BottomNavigationView;\r\n\r\nimport androidx.appcompat.app.AppCompatActivity;\r\nimport androidx.navigation.NavController;\r\nimport androidx.navigation.Navigation;\r\nimport androidx.navigation.ui.AppBarConfiguration;\r\nimport androidx.navigation.ui.NavigationUI;\r\n\r\nimport fr.adenlexar.v4.controleur.Controle;\r\nimport fr.adenlexar.v4.modele.Profil;\r\n\r\npublic class MainActivity extends AppCompatActivity {\r\n\r\n    private Controle c;\r\n\r\n    @Override\r\n    protected void onCreate(Bundle savedInstanceState) {\r\n        super.onCreate(savedInstanceState);\r\n        setContentView(R.layout.activity_main);\r\n        BottomNavigationView navView = findViewById(R.id.nav_view);\r\n        // Passing each menu ID as a set of Ids because each\r\n        // menu should be considered as top level destinations.\r\n        AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(\r\n                R.id.navigation_home, R.id.navigation_info, R.id.navigation_nutri, R.id.navigation_comp)\r\n                .build();\r\n        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);\r\n        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);\r\n        NavigationUI.setupWithNavController(navView, navController);\r\n\r\n        this.c = Controle.getInstance();\r\n    }\r\n\r\n    public Controle getC() {\r\n        return c;\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/fr/adenlexar/v4/MainActivity.java b/app/src/main/java/fr/adenlexar/v4/MainActivity.java
+--- a/app/src/main/java/fr/adenlexar/v4/MainActivity.java	(revision 977971fce3e14aaeffaef6f2aeb034a2bc4b8dfe)
++++ b/app/src/main/java/fr/adenlexar/v4/MainActivity.java	(date 1651059919354)
+@@ -11,11 +11,15 @@
+ import androidx.navigation.ui.NavigationUI;
+ 
+ import fr.adenlexar.v4.controleur.Controle;
++import fr.adenlexar.v4.modele.Aliment;
++import fr.adenlexar.v4.modele.BDD;
++import fr.adenlexar.v4.modele.Nutrition;
+ import fr.adenlexar.v4.modele.Profil;
+ 
+ public class MainActivity extends AppCompatActivity {
+ 
+     private Controle c;
++    private BDD bdd;
+ 
+     @Override
+     protected void onCreate(Bundle savedInstanceState) {
+@@ -32,9 +36,82 @@
+         NavigationUI.setupWithNavController(navView, navController);
+ 
+         this.c = Controle.getInstance();
++        //-------------------------------------------Création de la BDD--------------------------------------------------------
++        bdd = new BDD(null);
++        String fruit = "Fruit";
++        bdd.addAliment(new Aliment("Abricot" , new Nutrition(50,	0.8,0.2,11.2) ,"", fruit));
++        bdd.addAliment(new Aliment("Ananas" , new Nutrition(51,	0.5,0.2,12) ,"", fruit));
++        bdd.addAliment(new Aliment("Avocat" , new Nutrition(167,	2.1,16.4,4.7) ,"", fruit));
++        bdd.addAliment(new Aliment("Banane" , new Nutrition(90,	1.4,0.5,20) ,"", fruit));
++        bdd.addAliment(new Aliment("Cacahuète" , new Nutrition(560,	23,40,26) ,"", fruit));
++        bdd.addAliment(new Aliment("Cassis" , new Nutrition(65,	1.3,0.4,16) ,"", fruit));
++        bdd.addAliment(new Aliment("Cerise" , new Nutrition(77,	1.2,0.5,17) ,"", fruit));
++        bdd.addAliment(new Aliment("Châtaigne" , new Nutrition(207,	3.7,2.3,42.8) ,"", fruit));
++        bdd.addAliment(new Aliment("Citron" , new Nutrition(40,	0.8,0.6,7.8) ,"", fruit));
++        bdd.addAliment(new Aliment("Figue" , new Nutrition(74,	1.1,0.3,16.6) ,"", fruit));
++        bdd.addAliment(new Aliment("Fraise" , new Nutrition(36,	0.7,0.5,7) ,"", fruit));
++        bdd.addAliment(new Aliment("Framboise" , new Nutrition(40,	1,0.6,8) ,"", fruit));
++        bdd.addAliment(new Aliment("Goyave" , new Nutrition(76,	0.7,0.6,17) ,"", fruit));
++        bdd.addAliment(new Aliment("Grenade" , new Nutrition(66,	0.3,0.1,16) ,"", fruit));
++        bdd.addAliment(new Aliment("Groseille" , new Nutrition(41,	1.1,0.2,8.6) ,"", fruit));
++        bdd.addAliment(new Aliment("Kiwi" , new Nutrition(42,	0.7,0.4,9) ,"", fruit));
++        bdd.addAliment(new Aliment("Litchi" , new Nutrition(68,	0.7,0.1,16) ,"", fruit));
++        bdd.addAliment(new Aliment("Mandarine" , new Nutrition(52,	0.7,0.3,11.6) ,"", fruit));
++        bdd.addAliment(new Aliment("Mangue" , new Nutrition(64,	0.4,0.2,15) ,"", fruit));
++        bdd.addAliment(new Aliment("Melon" , new Nutrition(31,	0.8,0.2,6.5) ,"", fruit));
++        bdd.addAliment(new Aliment("Mirabelle" , new Nutrition(45,	0.7,0.2,10) ,"", fruit));
++        bdd.addAliment(new Aliment("Mûre" , new Nutrition(57,	1,0.6,12) ,"", fruit));
++        bdd.addAliment(new Aliment("Myrtille" , new Nutrition(69,	0.6,0.6,15.3) ,"", fruit));
++        bdd.addAliment(new Aliment("Nectarine" , new Nutrition(64,	0.7,0.1,15) ,"", fruit));
++        bdd.addAliment(new Aliment("Noisette" , new Nutrition(656,	14,60,15) ,"", fruit));
++        bdd.addAliment(new Aliment("Noix" , new Nutrition(677,	15,62.2,14.3) ,"", fruit));
++        bdd.addAliment(new Aliment("Noix de coco" , new Nutrition(370,	4,35,10) ,"", fruit));
++        bdd.addAliment(new Aliment("Olive verte" , new Nutrition(207,	0.8,20,6) ,"", fruit));
++        bdd.addAliment(new Aliment("Olive noire" , new Nutrition(156,	1.6,15,3.5) ,"", fruit));
++        bdd.addAliment(new Aliment("Orange" , new Nutrition(50,	0.5,0.1,11.7) ,"", fruit));
++        bdd.addAliment(new Aliment("Pamplemousse" , new Nutrition(41,	0.6,0.2,9.2) ,"", fruit));
++        bdd.addAliment(new Aliment("Papaye" , new Nutrition(44,	0.2,0.6,10) ,"", fruit));
++        bdd.addAliment(new Aliment("Pastèque" , new Nutrition(25,	0.4,0.2,5.3) ,"", fruit));
++        bdd.addAliment(new Aliment("Pêche" , new Nutrition(50,	0.6,0.1,11.6) ,"", fruit));
++        bdd.addAliment(new Aliment("Pistache" , new Nutrition(638,	4,54.5,15.2) ,"", fruit));
++        bdd.addAliment(new Aliment("Poire" , new Nutrition(61,	0.4,0.4,14) ,"", fruit));
++        bdd.addAliment(new Aliment("Pomme" , new Nutrition(52,	0.30,0.2,19.2) ,"", fruit));
++        bdd.addAliment(new Aliment("Prune" , new Nutrition(50,	0.8,0.2,11.2) ,"", fruit));
++        bdd.addAliment(new Aliment("Pruneau" , new Nutrition(290,	2.3,0.4,70) ,"", fruit));
++        bdd.addAliment(new Aliment("Raisin" , new Nutrition(81,	1,1,17) ,"", fruit));
++        bdd.addAliment(new Aliment("Raisin sec" , new Nutrition(311,	1.1,0.1,76.5) ,"", fruit));
++        bdd.addAliment(new Aliment("Rhubarbe" , new Nutrition(19,	0.6,0.1,3.8) ,"", fruit));
++        bdd.addAliment(new Aliment("Tomate" , new Nutrition(15,	0.8,0.1,2.8) ,"", fruit));
++
++        String legumes = "Légumes";
++        bdd.addAliment(new Aliment("Ail" , new Nutrition(135,	6,0.1,27.5) ,"", legumes));
++        bdd.addAliment(new Aliment("Artichaut" , new Nutrition(135,	6,0.1,27.5) ,"", legumes));
++        bdd.addAliment(new Aliment("Asperge" , new Nutrition(135,	6,0.1,27.5) ,"", legumes));
++        bdd.addAliment(new Aliment("Aubergine" , new Nutrition(135,	6,0.1,27.5) ,"", legumes));
++        bdd.addAliment(new Aliment("Betterave" , new Nutrition(135,	6,0.1,27.5) ,"", legumes));
++        bdd.addAliment(new Aliment("Brocoli" , new Nutrition(135,	6,0.1,27.5) ,"", legumes));
++        bdd.addAliment(new Aliment("Carotte" , new Nutrition(135,	6,0.1,27.5) ,"", legumes));
++        bdd.addAliment(new Aliment("Céleri" , new Nutrition(135,	6,0.1,27.5) ,"", legumes));
++        bdd.addAliment(new Aliment("Champignon" , new Nutrition(135,	6,0.1,27.5) ,"", legumes));
++        bdd.addAliment(new Aliment("Chou" , new Nutrition(135,	6,0.1,27.5) ,"", legumes));
++        bdd.addAliment(new Aliment("Chou-fleur" , new Nutrition(135,	6,0.1,27.5) ,"", legumes));
++        bdd.addAliment(new Aliment("Concombre" , new Nutrition(135,	6,0.1,27.5) ,"", legumes));
++        bdd.addAliment(new Aliment("Cornichon" , new Nutrition(135,	6,0.1,27.5) ,"", legumes));
++        bdd.addAliment(new Aliment("Chou" , new Nutrition(135,	6,0.1,27.5) ,"", legumes));
++        bdd.addAliment(new Aliment("Cho" , new Nutrition(135,	6,0.1,27.5) ,"", legumes));
++
++        //------------------------------------------------------------------------------------------------------------------------------
+     }
+ 
+     public Controle getC() {
+         return c;
+     }
++
++    public BDD getBdd() {
++        return bdd;
++    }
++
++    public void setBdd(BDD bdd) {
++        this.bdd = bdd;
++    }
+ }
+\ No newline at end of file
+Index: app/src/main/java/fr/adenlexar/v4/modele/Aliment.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package fr.adenlexar.v4.modele;\r\n\r\nimport android.media.Image;\r\n\r\npublic class Aliment {\r\n    private String nom;\r\n    private int poids;\r\n    private Nutrition nutriPourCentG;\r\n    private Nutrition nutriActuelle;\r\n    private String imgUrl;\r\n\r\n    public Aliment(String n, int poids, Nutrition nutriPourCentG, String imgUrl) {\r\n        this.nom = n;\r\n        this.poids = poids;\r\n        this.nutriPourCentG = nutriPourCentG;\r\n        this.nutriActuelle = new Nutrition(nutriPourCentG.getCalories()*poids/100,\r\n                nutriPourCentG.getProteines()*poids/100,\r\n                nutriPourCentG.getLipides()*poids/100,\r\n                nutriPourCentG.getGlucides()*poids/100);\r\n        this.imgUrl = imgUrl;\r\n    }\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    /**\r\n     * Getters and Setters\r\n     */\r\n\r\n    public String getNom() {\r\n        return nom;\r\n    }\r\n\r\n    public void setNom(String nom) {\r\n        this.nom = nom;\r\n    }\r\n\r\n    public int getPoids() {\r\n        return poids;\r\n    }\r\n\r\n    public void setPoids(int poids) {\r\n        this.poids = poids;\r\n    }\r\n\r\n    public Nutrition getNutriPourCentG() {\r\n        return nutriPourCentG;\r\n    }\r\n\r\n    public void setNutriPourCentG(Nutrition nutriPourCentG) {\r\n        this.nutriPourCentG = nutriPourCentG;\r\n    }\r\n\r\n    public Nutrition getNutriActuelle() {\r\n        return nutriActuelle;\r\n    }\r\n\r\n    public void setNutriActuelle(Nutrition nutriActuelle) {\r\n        this.nutriActuelle = nutriActuelle;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/fr/adenlexar/v4/modele/Aliment.java b/app/src/main/java/fr/adenlexar/v4/modele/Aliment.java
+--- a/app/src/main/java/fr/adenlexar/v4/modele/Aliment.java	(revision 977971fce3e14aaeffaef6f2aeb034a2bc4b8dfe)
++++ b/app/src/main/java/fr/adenlexar/v4/modele/Aliment.java	(date 1651057494827)
+@@ -8,22 +8,21 @@
+     private Nutrition nutriPourCentG;
+     private Nutrition nutriActuelle;
+     private String imgUrl;
++    private String type;
++    private boolean favori;
+ 
+-    public Aliment(String n, int poids, Nutrition nutriPourCentG, String imgUrl) {
++    public Aliment(String n, Nutrition nutriPourCentG, String imgUrl, String type) {
+         this.nom = n;
+-        this.poids = poids;
++        this.poids = 100;
+         this.nutriPourCentG = nutriPourCentG;
+         this.nutriActuelle = new Nutrition(nutriPourCentG.getCalories()*poids/100,
+                 nutriPourCentG.getProteines()*poids/100,
+                 nutriPourCentG.getLipides()*poids/100,
+                 nutriPourCentG.getGlucides()*poids/100);
+         this.imgUrl = imgUrl;
++        this.type = type;
++        this.favori = false;
+     }
+-
+-
+-
+-
+-
+ 
+ 
+     /**
+@@ -61,4 +60,28 @@
+     public void setNutriActuelle(Nutrition nutriActuelle) {
+         this.nutriActuelle = nutriActuelle;
+     }
++
++    public String getType() {
++        return type;
++    }
++
++    public void setType(String type) {
++        this.type = type;
++    }
++
++    public String getImgUrl() {
++        return imgUrl;
++    }
++
++    public void setImgUrl(String imgUrl) {
++        this.imgUrl = imgUrl;
++    }
++
++    public boolean isFavori() {
++        return favori;
++    }
++
++    public void setFavori(boolean favori) {
++        this.favori = favori;
++    }
+ }
+Index: app/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    package=\"fr.adenlexar.v4\">\r\n\r\n    <application\r\n        android:allowBackup=\"true\"\r\n        android:icon=\"@mipmap/ic_launcher\"\r\n        android:label=\"@string/app_name\"\r\n        android:roundIcon=\"@mipmap/ic_launcher_round\"\r\n        android:supportsRtl=\"true\"\r\n        android:theme=\"@style/AppTheme\">\r\n        <activity\r\n            android:name=\".MainActivity\"\r\n            android:label=\"@string/app_name\">\r\n            <intent-filter>\r\n                <action android:name=\"android.intent.action.MAIN\" />\r\n\r\n                <category android:name=\"android.intent.category.LAUNCHER\" />\r\n            </intent-filter>\r\n        </activity>\r\n    </application>\r\n\r\n</manifest>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/AndroidManifest.xml b/app/src/main/AndroidManifest.xml
+--- a/app/src/main/AndroidManifest.xml	(revision 977971fce3e14aaeffaef6f2aeb034a2bc4b8dfe)
++++ b/app/src/main/AndroidManifest.xml	(date 1651054172897)
+@@ -2,6 +2,9 @@
+ <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+     package="fr.adenlexar.v4">
+ 
++    <uses-permission android:name="android.permission.INTERNET"/>
++    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
++
+     <application
+         android:allowBackup="true"
+         android:icon="@mipmap/ic_launcher"
+Index: app/src/main/java/fr/adenlexar/v4/modele/Nutrition.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package fr.adenlexar.v4.modele;\r\n\r\npublic class Nutrition {\r\n    private int calories;\r\n    private int proteines;\r\n    private int lipides;\r\n    private int glucides;\r\n\r\n    public Nutrition(int c, int p, int l, int g){\r\n        this.calories = c;\r\n        this.proteines = p;\r\n        this.lipides = l;\r\n        this.glucides = g;\r\n    }\r\n\r\n    /**\r\n     * Getters and Setters\r\n     */\r\n    public int getCalories() {\r\n        return calories;\r\n    }\r\n\r\n    public void setCalories(int calories) {\r\n        this.calories = calories;\r\n    }\r\n\r\n    public int getProteines() {\r\n        return proteines;\r\n    }\r\n\r\n    public void setProteines(int proteines) {\r\n        this.proteines = proteines;\r\n    }\r\n\r\n    public int getLipides() {\r\n        return lipides;\r\n    }\r\n\r\n    public void setLipides(int lipides) {\r\n        this.lipides = lipides;\r\n    }\r\n\r\n    public int getGlucides() {\r\n        return glucides;\r\n    }\r\n\r\n    public void setGlucides(int glucides) {\r\n        this.glucides = glucides;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/fr/adenlexar/v4/modele/Nutrition.java b/app/src/main/java/fr/adenlexar/v4/modele/Nutrition.java
+--- a/app/src/main/java/fr/adenlexar/v4/modele/Nutrition.java	(revision 977971fce3e14aaeffaef6f2aeb034a2bc4b8dfe)
++++ b/app/src/main/java/fr/adenlexar/v4/modele/Nutrition.java	(date 1651056875235)
+@@ -1,12 +1,12 @@
+ package fr.adenlexar.v4.modele;
+ 
+ public class Nutrition {
+-    private int calories;
+-    private int proteines;
+-    private int lipides;
+-    private int glucides;
++    private double calories;
++    private double proteines;
++    private double lipides;
++    private double glucides;
+ 
+-    public Nutrition(int c, int p, int l, int g){
++    public Nutrition(double c, double p, double l, double g){
+         this.calories = c;
+         this.proteines = p;
+         this.lipides = l;
+@@ -16,35 +16,35 @@
+     /**
+      * Getters and Setters
+      */
+-    public int getCalories() {
++    public double getCalories() {
+         return calories;
+     }
+ 
+-    public void setCalories(int calories) {
++    public void setCalories(double calories) {
+         this.calories = calories;
+     }
+ 
+-    public int getProteines() {
++    public double getProteines() {
+         return proteines;
+     }
+ 
+-    public void setProteines(int proteines) {
++    public void setProteines(double proteines) {
+         this.proteines = proteines;
+     }
+ 
+-    public int getLipides() {
++    public double getLipides() {
+         return lipides;
+     }
+ 
+-    public void setLipides(int lipides) {
++    public void setLipides(double lipides) {
+         this.lipides = lipides;
+     }
+ 
+-    public int getGlucides() {
++    public double getGlucides() {
+         return glucides;
+     }
+ 
+-    public void setGlucides(int glucides) {
++    public void setGlucides(double glucides) {
+         this.glucides = glucides;
+     }
+ }
+Index: .idea/codestream.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CodeStream\">\r\n    <option name=\"webViewContext\" value=\"{&quot;chatProviderAccess&quot;:&quot;strict&quot;,&quot;currentTeamId&quot;:&quot;&quot;,&quot;currentStreamId&quot;:&quot;&quot;,&quot;pullRequestCheckoutBranch&quot;:false,&quot;isRepositioning&quot;:false,&quot;onboardStep&quot;:0,&quot;panelStack&quot;:[&quot;landing-redirect&quot;],&quot;hasFocus&quot;:false,&quot;channelFilter&quot;:&quot;all&quot;,&quot;channelsMuteAll&quot;:false,&quot;codemarkFileFilter&quot;:&quot;all&quot;,&quot;codemarkTypeFilter&quot;:&quot;all&quot;,&quot;codemarkTagFilter&quot;:&quot;all&quot;,&quot;codemarkBranchFilter&quot;:&quot;all&quot;,&quot;codemarkAuthorFilter&quot;:&quot;all&quot;,&quot;codemarksFileViewStyle&quot;:&quot;inline&quot;,&quot;codemarksShowArchived&quot;:false,&quot;codemarksShowResolved&quot;:false,&quot;codemarksWrapComments&quot;:false,&quot;showFeedbackSmiley&quot;:true,&quot;route&quot;:{&quot;name&quot;:&quot;newUserEntry&quot;,&quot;params&quot;:{}},&quot;spatialViewShowPRComments&quot;:false,&quot;__teamless__&quot;:{&quot;selectedRegion&quot;:&quot;us&quot;},&quot;sessionStart&quot;:1650531157152}\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/codestream.xml b/.idea/codestream.xml
+--- a/.idea/codestream.xml	(revision 977971fce3e14aaeffaef6f2aeb034a2bc4b8dfe)
++++ b/.idea/codestream.xml	(date 1651136849105)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="CodeStream">
+-    <option name="webViewContext" value="{&quot;chatProviderAccess&quot;:&quot;strict&quot;,&quot;currentTeamId&quot;:&quot;&quot;,&quot;currentStreamId&quot;:&quot;&quot;,&quot;pullRequestCheckoutBranch&quot;:false,&quot;isRepositioning&quot;:false,&quot;onboardStep&quot;:0,&quot;panelStack&quot;:[&quot;landing-redirect&quot;],&quot;hasFocus&quot;:false,&quot;channelFilter&quot;:&quot;all&quot;,&quot;channelsMuteAll&quot;:false,&quot;codemarkFileFilter&quot;:&quot;all&quot;,&quot;codemarkTypeFilter&quot;:&quot;all&quot;,&quot;codemarkTagFilter&quot;:&quot;all&quot;,&quot;codemarkBranchFilter&quot;:&quot;all&quot;,&quot;codemarkAuthorFilter&quot;:&quot;all&quot;,&quot;codemarksFileViewStyle&quot;:&quot;inline&quot;,&quot;codemarksShowArchived&quot;:false,&quot;codemarksShowResolved&quot;:false,&quot;codemarksWrapComments&quot;:false,&quot;showFeedbackSmiley&quot;:true,&quot;route&quot;:{&quot;name&quot;:&quot;newUserEntry&quot;,&quot;params&quot;:{}},&quot;spatialViewShowPRComments&quot;:false,&quot;__teamless__&quot;:{&quot;selectedRegion&quot;:&quot;us&quot;},&quot;sessionStart&quot;:1650531157152}" />
++    <option name="webViewContext" value="{&quot;chatProviderAccess&quot;:&quot;strict&quot;,&quot;currentTeamId&quot;:&quot;&quot;,&quot;currentStreamId&quot;:&quot;&quot;,&quot;pullRequestCheckoutBranch&quot;:false,&quot;isRepositioning&quot;:false,&quot;onboardStep&quot;:0,&quot;panelStack&quot;:[&quot;landing-redirect&quot;],&quot;hasFocus&quot;:false,&quot;channelFilter&quot;:&quot;all&quot;,&quot;channelsMuteAll&quot;:false,&quot;codemarkFileFilter&quot;:&quot;all&quot;,&quot;codemarkTypeFilter&quot;:&quot;all&quot;,&quot;codemarkTagFilter&quot;:&quot;all&quot;,&quot;codemarkBranchFilter&quot;:&quot;all&quot;,&quot;codemarkAuthorFilter&quot;:&quot;all&quot;,&quot;codemarksFileViewStyle&quot;:&quot;inline&quot;,&quot;codemarksShowArchived&quot;:false,&quot;codemarksShowResolved&quot;:false,&quot;codemarksWrapComments&quot;:false,&quot;showFeedbackSmiley&quot;:true,&quot;route&quot;:{&quot;name&quot;:&quot;newUserEntry&quot;,&quot;params&quot;:{}},&quot;spatialViewShowPRComments&quot;:false,&quot;__teamless__&quot;:{&quot;selectedRegion&quot;:&quot;us&quot;},&quot;sessionStart&quot;:1651136692753}" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: app/src/main/java/fr/adenlexar/v4/ui/nutrition/NutriFragment.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package fr.adenlexar.v4.ui.nutrition;\r\n\r\nimport android.media.Image;\r\nimport android.os.Bundle;\r\nimport android.view.LayoutInflater;\r\nimport android.view.View;\r\nimport android.view.ViewGroup;\r\nimport android.widget.Button;\r\nimport android.widget.EditText;\r\nimport android.widget.ImageView;\r\nimport android.widget.TextView;\r\n\r\nimport androidx.annotation.NonNull;\r\nimport androidx.annotation.Nullable;\r\nimport androidx.fragment.app.Fragment;\r\nimport androidx.recyclerview.widget.RecyclerView;\r\n\r\n\r\nimport java.util.ArrayList;\r\n\r\nimport fr.adenlexar.v4.AlimentRepository;\r\nimport fr.adenlexar.v4.MainActivity;\r\nimport fr.adenlexar.v4.R;\r\nimport fr.adenlexar.v4.adapter.AlimentAdapter;\r\nimport fr.adenlexar.v4.modele.Aliment;\r\nimport fr.adenlexar.v4.modele.Nutrition;\r\n\r\n\r\n\r\n\r\npublic class NutriFragment extends Fragment {\r\n\r\n    private MainActivity mainActivity;\r\n    private ArrayList<Aliment> liste;\r\n    private EditText poidsG;\r\n    private TextView Nom;\r\n    private ImageView img;\r\n    private Aliment currentAliment;\r\n    private RecyclerView recyclerView;\r\n    private AlimentAdapter adapter = new AlimentAdapter();\r\n    private AlimentRepository bdd;\r\n\r\n\r\n\r\n    public View onCreateView(@NonNull LayoutInflater inflater,\r\n                             ViewGroup container, Bundle savedInstanceState) {\r\n\r\n\r\n        View root = inflater.inflate(R.layout.fragment_nutri, container, false);\r\n\r\n        mainActivity = (MainActivity) getActivity();\r\n\r\n        bdd = new AlimentRepository();\r\n\r\n        bdd.updateData();\r\n\r\n        this.recyclerView = (RecyclerView) root.findViewById(R.id.VerticalRecyclerView);\r\n\r\n\r\n\r\n        recyclerView.setAdapter(adapter);\r\n        this.img = (ImageView) root.findViewById(R.id.imageView);\r\n        this.Nom = (TextView) root.findViewById(R.id.Nom);\r\n        this.poidsG = (EditText) root.findViewById(R.id.Poids);//récupération de l'objet graphique à l'aide de l'id\r\n\r\n        ecouteBoutons(root);\r\n        for (int i = 0 ; i < bdd.bdd.size();i++) {\r\n            System.out.println(bdd.bdd.get(i).getNom());\r\n        }\r\n        return root;\r\n    }\r\n\r\n    private void ecouteBoutons(View v){\r\n        ((Button) v.findViewById(R.id.Manger)).setOnClickListener(new Button.OnClickListener(){\r\n            public void onClick(View v){\r\n                int poids = 0;\r\n                String nom = \"\";\r\n                currentAliment = null;\r\n\r\n                //récup données saisies\r\n                try {\r\n                    poids = Integer.parseInt(poidsG.getText().toString());\r\n                } catch (Exception e) {};\r\n                nom = Nom.getText().toString();\r\n                if (poids == 0 || nom.equals(\"\")) {\r\n                    //Problème\r\n                } else {\r\n                    currentAliment = new Aliment(nom,poids,null,null); //A remettre dans la recherche\r\n                    liste.add(currentAliment);\r\n                    currentAliment  = null;\r\n                    mainActivity.getC().setActualConso(calculTotal());\r\n                }\r\n            }\r\n        });\r\n    }\r\n\r\n    private Nutrition calculTotal(){\r\n        int c = 0;\r\n        int p = 0;\r\n        int l = 0;\r\n        int g = 0;\r\n        Nutrition n = null;\r\n        for (int i = 0 ; i < liste.toArray().length ; i ++) {\r\n            n = liste.get(i).getNutriActuelle();\r\n            c += n.getCalories();\r\n            p += n.getProteines();\r\n            l += n.getLipides();\r\n            g += n.getGlucides();\r\n        }\r\n        return new Nutrition(c,p,l,g);\r\n    }\r\n\r\n    @Nullable\r\n    private Nutrition chercheNutri(String nom){\r\n        return null;\r\n    }\r\n\r\n    @Nullable\r\n    private Image chercheImg(String nom){\r\n        return null;\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/fr/adenlexar/v4/ui/nutrition/NutriFragment.java b/app/src/main/java/fr/adenlexar/v4/ui/nutrition/NutriFragment.java
+--- a/app/src/main/java/fr/adenlexar/v4/ui/nutrition/NutriFragment.java	(revision 977971fce3e14aaeffaef6f2aeb034a2bc4b8dfe)
++++ b/app/src/main/java/fr/adenlexar/v4/ui/nutrition/NutriFragment.java	(date 1651056981111)
+@@ -18,11 +18,11 @@
+ 
+ import java.util.ArrayList;
+ 
+-import fr.adenlexar.v4.AlimentRepository;
+ import fr.adenlexar.v4.MainActivity;
+ import fr.adenlexar.v4.R;
+ import fr.adenlexar.v4.adapter.AlimentAdapter;
+ import fr.adenlexar.v4.modele.Aliment;
++import fr.adenlexar.v4.modele.BDD;
+ import fr.adenlexar.v4.modele.Nutrition;
+ 
+ 
+@@ -38,7 +38,7 @@
+     private Aliment currentAliment;
+     private RecyclerView recyclerView;
+     private AlimentAdapter adapter = new AlimentAdapter();
+-    private AlimentRepository bdd;
++    private BDD bdd;
+ 
+ 
+ 
+@@ -50,9 +50,7 @@
+ 
+         mainActivity = (MainActivity) getActivity();
+ 
+-        bdd = new AlimentRepository();
+-
+-        bdd.updateData();
++        bdd = new BDD(null);
+ 
+         this.recyclerView = (RecyclerView) root.findViewById(R.id.VerticalRecyclerView);
+ 
+@@ -64,9 +62,7 @@
+         this.poidsG = (EditText) root.findViewById(R.id.Poids);//récupération de l'objet graphique à l'aide de l'id
+ 
+         ecouteBoutons(root);
+-        for (int i = 0 ; i < bdd.bdd.size();i++) {
+-            System.out.println(bdd.bdd.get(i).getNom());
+-        }
++
+         return root;
+     }
+ 
+@@ -85,7 +81,7 @@
+                 if (poids == 0 || nom.equals("")) {
+                     //Problème
+                 } else {
+-                    currentAliment = new Aliment(nom,poids,null,null); //A remettre dans la recherche
++                    currentAliment = new Aliment(nom,null,"","");//A remettre dans la recherche
+                     liste.add(currentAliment);
+                     currentAliment  = null;
+                     mainActivity.getC().setActualConso(calculTotal());
+@@ -95,10 +91,10 @@
+     }
+ 
+     private Nutrition calculTotal(){
+-        int c = 0;
+-        int p = 0;
+-        int l = 0;
+-        int g = 0;
++        double c = 0;
++        double p = 0;
++        double l = 0;
++        double g = 0;
+         Nutrition n = null;
+         for (int i = 0 ; i < liste.toArray().length ; i ++) {
+             n = liste.get(i).getNutriActuelle();
+Index: app/src/main/java/fr/adenlexar/v4/modele/BDD.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/fr/adenlexar/v4/modele/BDD.java b/app/src/main/java/fr/adenlexar/v4/modele/BDD.java
+new file mode 100644
+--- /dev/null	(date 1651057145627)
++++ b/app/src/main/java/fr/adenlexar/v4/modele/BDD.java	(date 1651057145627)
+@@ -0,0 +1,31 @@
++package fr.adenlexar.v4.modele;
++
++import java.util.List;
++
++public class BDD {
++    private List<Aliment> list;
++    private List<Aliment> Fruit;
++
++    public BDD(List<Aliment> list){
++        this.list = list;
++    }
++
++    public void addAliment(Aliment e){
++        this.list.add(e);
++        if(e.getType().equals("Fruit")) {
++            Fruit.add(e);
++        }
++    }
++
++
++    /**
++     * Getters and Setters
++     */
++    public List<Aliment> getList(){
++        return this.list;
++    }
++
++    public void setList(List<Aliment> l){
++        this.list = l;
++    }
++}
