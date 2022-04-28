@@ -5,24 +5,17 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProviders;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import fr.adenlexar.v4.MainActivity;
-import fr.adenlexar.v4.PopUp;
 import fr.adenlexar.v4.R;
 
 public class CompFragment extends Fragment {
@@ -54,7 +47,7 @@ public class CompFragment extends Fragment {
                                     int position, long id) {
                 //When clicked
 
-                Intent intent = new Intent(CompFragment.this.getContext(), PopUp.class);
+                Intent intent = new Intent(CompFragment.this.getContext(), PopUpComp.class);
                 if(position == 0) {
                     intent.putExtra("TITLE", "Whey Protéine");
                     intent.putExtra("TEXT", "La whey protéine est une protéine issue du lait. Populaire auprès des pratiquants de musculation, cette dernière permet " +

@@ -1,12 +1,14 @@
 package fr.adenlexar.v4.modele;
 
-public class Nutrition {
-    private int calories;
-    private int proteines;
-    private int lipides;
-    private int glucides;
+import java.io.Serializable;
 
-    public Nutrition(int c, int p, int l, int g){
+public class Nutrition implements Serializable {
+    private double calories;
+    private double proteines;
+    private double lipides;
+    private double glucides;
+
+    public Nutrition(double c, double p, double l, double g){
         this.calories = c;
         this.proteines = p;
         this.lipides = l;
@@ -16,35 +18,35 @@ public class Nutrition {
     /**
      * Getters and Setters
      */
-    public int getCalories() {
+    public double getCalories() {
         return calories;
     }
 
-    public void setCalories(int calories) {
+    public void setCalories(double calories) {
         this.calories = calories;
     }
 
-    public int getProteines() {
+    public double getProteines() {
         return proteines;
     }
 
-    public void setProteines(int proteines) {
+    public void setProteines(double proteines) {
         this.proteines = proteines;
     }
 
-    public int getLipides() {
+    public double getLipides() {
         return lipides;
     }
 
-    public void setLipides(int lipides) {
+    public void setLipides(double lipides) {
         this.lipides = lipides;
     }
 
-    public int getGlucides() {
+    public double getGlucides() {
         return glucides;
     }
 
-    public void setGlucides(int glucides) {
+    public void setGlucides(double glucides) {
         this.glucides = glucides;
     }
 }

@@ -1,5 +1,6 @@
 package fr.adenlexar.v4.ui.nutrition;
 
+import android.content.Intent;
 import android.media.Image;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -7,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -18,28 +19,26 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-import fr.adenlexar.v4.AlimentRepository;
 import fr.adenlexar.v4.MainActivity;
 import fr.adenlexar.v4.R;
 import fr.adenlexar.v4.adapter.AlimentAdapter;
 import fr.adenlexar.v4.modele.Aliment;
+import fr.adenlexar.v4.modele.BDD;
 import fr.adenlexar.v4.modele.Nutrition;
-
-
 
 
 public class NutriFragment extends Fragment {
 
     private MainActivity mainActivity;
-    private ArrayList<Aliment> liste;
     private EditText poidsG;
     private TextView Nom;
-    private ImageView img;
+    private ImageButton img;
     private Aliment currentAliment;
     private RecyclerView recyclerView;
-    private AlimentAdapter adapter = new AlimentAdapter();
-    private AlimentRepository bdd;
-
+    private BDD bdd = new MainActivity().getBdd();
+    private ArrayList<Aliment> liste = new ArrayList<>();
+    private AlimentAdapter adapter;
+    private PopUpNutri popup = new PopUpNutri();
 
 
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -50,23 +49,17 @@ public class NutriFragment extends Fragment {
 
         mainActivity = (MainActivity) getActivity();
 
-        bdd = new AlimentRepository();
-
-        bdd.updateData();
+        this.adapter = new AlimentAdapter(R.layout.item_vertical_aliment,liste,mainActivity);
 
         this.recyclerView = (RecyclerView) root.findViewById(R.id.VerticalRecyclerView);
 
-
-
         recyclerView.setAdapter(adapter);
-        this.img = (ImageView) root.findViewById(R.id.imageView);
+        this.img = (ImageButton) root.findViewById(R.id.image);
         this.Nom = (TextView) root.findViewById(R.id.Nom);
         this.poidsG = (EditText) root.findViewById(R.id.Poids);//récupération de l'objet graphique à l'aide de l'id
 
         ecouteBoutons(root);
-        for (int i = 0 ; i < bdd.bdd.size();i++) {
-            System.out.println(bdd.bdd.get(i).getNom());
-        }
+
         return root;
     }
 
@@ -85,20 +78,30 @@ public class NutriFragment extends Fragment {
                 if (poids == 0 || nom.equals("")) {
                     //Problème
                 } else {
-                    currentAliment = new Aliment(nom,poids,null,null); //A remettre dans la recherche
+                    currentAliment = new Aliment(nom,null,"","");//A remettre dans la recherche
                     liste.add(currentAliment);
                     currentAliment  = null;
                     mainActivity.getC().setActualConso(calculTotal());
                 }
             }
         });
+
+        img.setOnClickListener(new Button.OnClickListener(){
+            public void onClick(View v){
+                popup.setBdd(bdd);
+                Intent intent = new Intent(NutriFragment.this.getContext(), popup.getClass());
+                intent.putExtra("context",mainActivity);
+
+                startActivity(intent);
+            }
+        });
     }
 
     private Nutrition calculTotal(){
-        int c = 0;
-        int p = 0;
-        int l = 0;
-        int g = 0;
+        double c = 0;
+        double p = 0;
+        double l = 0;
+        double g = 0;
         Nutrition n = null;
         for (int i = 0 ; i < liste.toArray().length ; i ++) {
             n = liste.get(i).getNutriActuelle();
