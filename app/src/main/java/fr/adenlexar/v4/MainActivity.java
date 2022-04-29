@@ -96,6 +96,15 @@ public class MainActivity extends AppCompatActivity implements Serializable {
         bdd.addAliment(new Aliment("Chou" , new Nutrition(135,	6,0.1,27.5) ,"", legumes));
         bdd.addAliment(new Aliment("Cho" , new Nutrition(135,	6,0.1,27.5) ,"", legumes));
 
+        String viande = "Viande";
+        bdd.addAliment(new Aliment("Poulet" , new Nutrition(121,	26.5,2,1) ,"poulet.png", viande));
+        bdd.addAliment(new Aliment("Boeuf" , new Nutrition(149,	30,25,5) ,"boeuf.png", viande));
+
+        String poisson = "Poisson";
+        bdd.addAliment(new Aliment("Morue" , new Nutrition(113,	18,0,0) ,"morue.png", poisson));
+        bdd.addAliment(new Aliment("Saumon" , new Nutrition(179,	20,25,0) ,"saumon.png", poisson));
+
+
         //------------------------------------------------------------------------------------------------------------------------------
         return bdd;
     }
